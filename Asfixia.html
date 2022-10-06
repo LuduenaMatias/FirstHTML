@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title> Asfixia </title>
+		<link type="text/css" rel="STYLESHEET" href="ElCSS.css">
+		<meta charset="UTF-8">
+		<script src="Script.js" type="text/javascript">
+			
+			var mimodal = ModalImagen("fuego.jpg");
+
+		</script>
+	</head>
+	<body>
+		<form name="frmAsf">
+			<table align="center" border="2" bgcolor=#BB8844>
+				<tr>
+					<td align="center">
+						<img src="ahog.jpg">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td>
+									<input type="radio" name="radOptions" value="InfoAsf" > Informacion 
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="radio" name="radOptions" value="ProcedimientoAsf"> Procedimiento 
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="radio" name="radOptions" value="AdicionalAsf"> Asfixia por Humo o Inhalacion toxica 
+								</td>
+							</tr>
+							<tr>
+								<td align="center">
+									<br>
+									<input type="button" value="Siguiente -->" onclick=botonero()>
+								</td>
+							</tr>
+							<tr>
+								<td align="center">
+									<input type="button" value="Imagen Aqui" onclick="mostrarModal(mimodal);">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

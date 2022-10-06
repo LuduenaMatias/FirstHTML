@@ -1,0 +1,61 @@
+		body		{
+						background-color: #CC9955;
+						/*background-image: url(PRIMEROS_AUXILIOS.jpg);*/
+					}
+
+		#Titulo		{
+						font-style:arial,verdana;
+						font-weight: bold;
+						font-size: 45;
+						color: #EE0033;
+						text-align: center; 
+						background: #CCCCCC;
+						border: solid red;
+					}
+
+		a 			{
+						background: #FFFFFF;
+						text-decoration: none;
+						font-family:monospace,arial;
+						font-weight: bold;
+					}
+
+		a:visited	{
+						color: red;
+					}
+
+/* ------ Fondo negro transparente ------ */
+
+		.transparencia	{
+						position: fixed;
+						width: 100%;
+						height: 100%;
+						top: 0px;
+						left: 0px;
+						background-color: rgba(0,0,0,0.5);
+						visibility: hidden;
+					}
+
+		.modal		{
+						background-color: gray;
+						border-radius: 5px;
+						padding: 25px;
+						margin: 10% auto;
+						width: 50%;
+						height: auto;
+					}
+
+		.cierre		{
+						width: auto;
+						height: auto;
+						cursor: pointer;
+						color: rgba(255,0,0,0.5);
+						float: right;
+						padding: 10px;
+						font-family: "verdana","arial";
+						font-weight: bold;
+					}
+
+		.cierre:hover{
+						color: rgba(255,0,0,1);
+					}

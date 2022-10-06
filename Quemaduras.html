@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title> Quemaduras </title>
+		<link type="text/css" rel="STYLESHEET" href="ElCSS.css">
+		<meta charset="UTF-8">
+		<script src="Script.js" type="text/javascript">
+			
+			var mimodal = ModalImagen("fuego.jpg");
+
+		</script>
+	</head>
+	<body>
+		<form name="frmQuema">
+			<table align="center" border="2" bgcolor=#884422>
+				<tr>
+					<td align="center">
+						<img src="fuego.jpg" height="500px" width="350px">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table align="center">
+							<tr>
+								<td>
+									<input type="radio" name="radOptions" value="InfoQuema"> Informacion 	
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="radio" name="radOptions" value="NoHacer"> Que <b>NO</b> se debe hacer 	
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="radio" name="radOptions" value="ProcedimientoQ"> Como Actuar 
+								</td>
+							</tr>
+							<tr>
+								<td align="center">
+									<br>
+									<input type="button" value="Siguiente -->" onclick=botonero()>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+							<tr>
+								<td align="center">
+									<input type="button" value="Imagen Aqui" onclick="mostrarModal(mimodal);">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
